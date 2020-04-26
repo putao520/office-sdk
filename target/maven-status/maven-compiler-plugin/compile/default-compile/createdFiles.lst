@@ -1,0 +1,11 @@
+common\common\word\WatermaskBuilder.class
+test\java\main.class
+common\offices\WordHelper.class
+common\offices\WordHelper$2.class
+common\offices\ExcelHelper.class
+common\common\word\WatermaskFilter.class
+common\offices\WordHelper$Align.class
+common\offices\WordHelper$1.class
+common\common\word\WhenImage.class
+common\common\word\WatermarkText.class
+common\offices\PdfHelper.class

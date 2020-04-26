@@ -1,0 +1,180 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x0000000068a519e8, pid=9976, tid=5220
+#
+# JRE version:  (10.0.1+10) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (10.0.1+10, mixed mode, aot, tiered, compressed oops, g1 gc, windows-amd64)
+# Problematic frame:
+# V  [jvm.dll+0x1c19e8]
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: D:\ms_net_disk\OneDrive\putao520\代码与学习\web\GrapeFW3.1\gfw-office\target\office-sdk-1.03-jar-with-dependencies.jar
+
+Host: Intel(R) Core(TM) i9-7980XE CPU @ 2.60GHz, 36 cores, 63G,  Windows 10 , 64 bit Build 17763 (10.0.17763.437)
+Time: Mon Apr 29 13:46:22 2019 ?D1ú±ê×?ê±?? elapsed time: 0 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000294a8c06000):  JavaThread "Unknown thread" [_thread_in_vm, id=5220, stack(0x0000009aa0800000,0x0000009aa0900000)]
+
+Stack: [0x0000009aa0800000,0x0000009aa0900000],  sp=0x0000009aa08ff3a0,  free space=1020k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x1c19e8]
+V  [jvm.dll+0x1bfde3]
+V  [jvm.dll+0x35182b]
+V  [jvm.dll+0x6859c2]
+V  [jvm.dll+0x3ba0a3]
+V  [jvm.dll+0x3bc201]
+C  [javaw.exe+0x3541]
+C  [javaw.exe+0xe1cf]
+C  [javaw.exe+0xe376]
+C  [KERNEL32.DLL+0x17974]
+C  [ntdll.dll+0x6a271]
+
+
+siginfo: EXCEPTION_ACCESS_VIOLATION (0xc0000005), reading address 0x0000000000000000
+
+
+Registers:
+RAX=0x0000cd11810d4d5d, RBX=0x0000000000000000, RCX=0x0000000000000000, RDX=0x0000000000000000
+RSP=0x0000009aa08ff3a0, RBP=0x0000000000000000, RSI=0x00000294a8c06000, RDI=0x0000000000000000
+R8 =0x0000000000000006, R9 =0x00007ffa91da4b18, R10=0x0000000000000006, R11=0x0000009aa08fec20
+R12=0x0000000000000000, R13=0x0000000068de2b80, R14=0x0000009aa08ff7f8, R15=0x00000294a896a398
+RIP=0x0000000068a519e8, EFLAGS=0x0000000000010256
+
+Top of Stack: (sp=0x0000009aa08ff3a0)
+0x0000009aa08ff3a0:   0000000069031658 0000000068e05c2d
+0x0000009aa08ff3b0:   00000000690993c0 0000000069031658
+0x0000009aa08ff3c0:   0000000000000040 0000009aa08ff420
+0x0000009aa08ff3d0:   00000294a8c047c0 0000000068e06075
+0x0000009aa08ff3e0:   00000294a8c06000 0000000000000000
+0x0000009aa08ff3f0:   0000000000000000 0000000068e05957
+0x0000009aa08ff400:   0000000000000000 0000000068e570e9
+0x0000009aa08ff410:   00000294a8c047c0 0000000000000000
+0x0000009aa08ff420:   0000000000000000 0000000000000000
+0x0000009aa08ff430:   0000000000000004 0000000068e57748
+0x0000009aa08ff440:   00000294a8c047c0 0000cd11810d4d5d
+0x0000009aa08ff450:   0000000000000004 0000000000000000
+0x0000009aa08ff460:   0000000068de2b80 00000294a8c06000
+0x0000009aa08ff470:   0000009aa08ff4b0 0000000068a4fde3
+0x0000009aa08ff480:   0000000000000000 0000009aa08ff4b0
+0x0000009aa08ff490:   0000000000000000 0000000000000000 
+
+Instructions: (pc=0x0000000068a519e8)
+0x0000000068a519c8:   c0 00 00 00 48 8b 05 dd 1c 7a 00 48 33 c4 48 89
+0x0000000068a519d8:   84 24 a8 00 00 00 48 8b e9 48 83 ca ff 48 ff c2
+0x0000000068a519e8:   80 3c 0a 00 75 f7 33 f6 45 33 ed c6 44 24 30 01
+0x0000000068a519f8:   85 d2 0f 8e 54 02 00 00 8b 0d 56 6d 81 00 65 48 
+
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x00000294a896ba90, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+[error occurred during error reporting (printing all threads), id 0xc0000005]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+
+[error occurred during error reporting (printing compressed oops mode), id 0xc0000005]
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff7f7f40000 - 0x00007ff7f7f7e000 	C:\Program Files\Java\jdk-10.0.1\bin\javaw.exe
+0x00007ffa9ce00000 - 0x00007ffa9cfed000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffa9cb10000 - 0x00007ffa9cbc3000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ffa99570000 - 0x00007ffa99803000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ffa9a1d0000 - 0x00007ffa9a273000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffa9a700000 - 0x00007ffa9a79e000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffa9c860000 - 0x00007ffa9c8fe000 	C:\WINDOWS\System32\sechost.dll
+0x00007ffa9a930000 - 0x00007ffa9aa52000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffa9c660000 - 0x00007ffa9c7f7000 	C:\WINDOWS\System32\USER32.dll
+0x00007ffa99550000 - 0x00007ffa99570000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffa9a900000 - 0x00007ffa9a929000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ffa991a0000 - 0x00007ffa9933a000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ffa99f60000 - 0x00007ffa9a000000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ffa99340000 - 0x00007ffa9943a000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ffa84cb0000 - 0x00007ffa84f29000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.437_none_05b63dca071e5dd6\COMCTL32.dll
+0x00007ffa94290000 - 0x00007ffa9429a000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ffa9a2e0000 - 0x00007ffa9a60c000 	C:\WINDOWS\System32\combase.dll
+0x00007ffa99120000 - 0x00007ffa9919e000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ffa9a7a0000 - 0x00007ffa9a7ce000 	C:\WINDOWS\System32\IMM32.DLL
+0x00007ffa69a60000 - 0x00007ffa69b4f000 	C:\Program Files\Java\jdk-10.0.1\bin\msvcr120.dll
+0x00007ffa64bb0000 - 0x00007ffa64c56000 	C:\Program Files\Java\jdk-10.0.1\bin\msvcp120.dll
+0x0000000068890000 - 0x0000000069300000 	C:\Program Files\Java\jdk-10.0.1\bin\server\jvm.dll
+0x00007ffa9aa60000 - 0x00007ffa9aa68000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ffa96f30000 - 0x00007ffa96f39000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffa95350000 - 0x00007ffa95374000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffa9b100000 - 0x00007ffa9b16d000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ffa95320000 - 0x00007ffa9534d000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007ffa98ea0000 - 0x00007ffa98eea000 	C:\WINDOWS\System32\cfgmgr32.dll
+0x00007ffa96e60000 - 0x00007ffa96e6f000 	C:\Program Files\Java\jdk-10.0.1\bin\verify.dll
+0x00007ffa89c70000 - 0x00007ffa89e5d000 	C:\WINDOWS\SYSTEM32\DBGHELP.DLL
+0x00007ffa89630000 - 0x00007ffa8965a000 	C:\WINDOWS\SYSTEM32\dbgcore.DLL
+0x00007ffa816c0000 - 0x00007ffa816e7000 	C:\Program Files\Java\jdk-10.0.1\bin\java.dll
+0x00007ffa815d0000 - 0x00007ffa815e6000 	C:\Program Files\Java\jdk-10.0.1\bin\zip.dll
+0x00007ffa91da0000 - 0x00007ffa91daa000 	C:\Program Files\Java\jdk-10.0.1\bin\jimage.dll
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;C:\Program Files\Java\jdk-10.0.1\bin;C:\WINDOWS\SYSTEM32;C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.437_none_05b63dca071e5dd6;C:\Program Files\Java\jdk-10.0.1\bin\server
+
+VM Arguments:
+java_command: D:\ms_net_disk\OneDrive\putao520\代码与学习\web\GrapeFW3.1\gfw-office\target\office-sdk-1.03-jar-with-dependencies.jar
+java_class_path (initial): D:\ms_net_disk\OneDrive\putao520\代码与学习\web\GrapeFW3.1\gfw-office\target\office-sdk-1.03-jar-with-dependencies.jar
+Launcher Type: SUN_STANDARD
+
+Logging:
+Log output configuration:
+#0: stdout all=warning uptime,level,tags
+#1: stderr all=off uptime,level,tags
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk-10.0.1
+CLASSPATH=.;C:\Program Files\Java\jdk-10.0.1\lib;C:\Program Files\Java\jdk-10.0.1\lib\tools.jar
+PATH=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\NetSarang\Xshell 6\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\Program Files\Java\jre-10.0.1/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin;d:\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Go\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NGX;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\PuTTY\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\nodejs\;d:\Anaconda3;d:\Anaconda3\Library\mingw-w64\bin;d:\Anaconda3\Library\usr\bin;d:\Anaconda3\Library\bin;d:\Anaconda3\Scripts;C:\Users\yuyao\AppData\Local\Microsoft\WindowsApps;C:\java\apache-maven-3.3.9\bin;C:\Users\yuyao\go\bin;C:\xmake;C:\Users\yuyao\AppData\Roaming\npm
+USERNAME=yuyao
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 85 Stepping 4, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10 , 64 bit Build 17763 (10.0.17763.437)
+
+CPU:total 36 (initial active 36) 
+
+Memory: 4k page, physical 66771656k(54284664k free), swap 70965960k(55278224k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (10.0.1+10) for windows-amd64 JRE (10.0.1+10), built on Mar 27 2018 02:27:48 by "mach5one" with MS VC++ 12.0 (VS2013)
+
+END.

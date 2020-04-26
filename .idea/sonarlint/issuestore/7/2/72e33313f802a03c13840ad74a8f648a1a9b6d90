@@ -1,0 +1,24 @@
+
+nsquid:S00117z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡˜”…ùÿÿÿÿ
+hsquid:CommentedOutCodeLineƒ"<This block of commented-out lines of code should be removed.(°˜‰¢úÿÿÿÿ
+Usquid:UnusedPrivateMethodÈ"/Remove this unused private "chkLicense" method.(ÄèþÓ
+hsquid:CommentedOutCodeLineÁ"<This block of commented-out lines of code should be removed.(º½Š‹üÿÿÿÿ
+Hsquid:S1068"1Remove this unused "normalCharSet" private field.(Û‡èà
+bsquid:CommentedOutCodeLine¢"<This block of commented-out lines of code should be removed.(£ùçg
+gsquid:CommentedOutCodeLineU"<This block of commented-out lines of code should be removed.(ßÒ®ûÿÿÿÿ
+_squid:S00112Ë"FDefine and throw a dedicated exception instead of using a generic one.(‡ÉŠ¨
+hsquid:CommentedOutCodeLineÊ"<This block of commented-out lines of code should be removed.(ïÑ™áþÿÿÿÿ
+|squid:S00116v"_Rename this field "_HorizontalAlignment" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š£Ïùúÿÿÿÿ
+dsquid:S00112¥"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+gsquid:CommentedOutCodeLinel"<This block of commented-out lines of code should be removed.( ‡â»ýÿÿÿÿ
+dsquid:S00112ý"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+csquid:CommentedOutCodeLine¯"<This block of commented-out lines of code should be removed.(¶½Ñ¨
+csquid:CommentedOutCodeLineŒ"<This block of commented-out lines of code should be removed.(É’­
+ksquid:S00100z"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡˜”…ùÿÿÿÿ
+usquid:S00116x"]Rename this field "_VerticalAlignment" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’‘ÓÇ
+nsquid:S00117z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡˜”…ùÿÿÿÿ
+csquid:CommentedOutCodeLineè"<This block of commented-out lines of code should be removed.(à…¾ð
+jsquid:CommentedOutCodeLine¹"<This block of commented-out lines of code should be removed.(ÒãØø8·ÿÛ”‹-
+Lsquid:S2864¥"4Iterate over the "entrySet" instead of the "keySet".(ï¤â×
+csquid:CommentedOutCodeLineì"<This block of commented-out lines of code should be removed.(µáÝ
+dsquid:S00112Ð"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ

@@ -1,0 +1,13 @@
+
+Tsquid:S1854~"8Remove this useless assignment to local variable "cell".(£“Œşÿÿÿÿ
+^squid:S001125"FDefine and throw a dedicated exception instead of using a generic one.(ëÚÖ’
+nsquid:S00117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ€°İüÿÿÿÿ
+fsquid:S2095k"JUse try-with-resources or close this "HSSFWorkbook" in a "finally" clause.(øÛ÷ûùÿÿÿÿ
+T
+squid:S1067"9Replace this use of System.out or System.err by a logger.(÷äÜ±ıÿÿÿÿ
+bsquid:CommentedOutCodeLineL"<This block of commented-out lines of code should be removed.(‘˜ÙŞ
+^squid:S00112""FDefine and throw a dedicated exception instead of using a generic one.(Ü©‚
+Ksquid:S2864|"4Iterate over the "entrySet" instead of the "keySet".(üûñ
+osquid:ModifiersOrderCheckG"EReorder the modifiers to comply with the Java Language Specification.(˜ï¦Şúÿÿÿÿ
+~squid:S4165~"bRemove this useless assignment; "cell" already holds the assigned value along all execution paths.(£“Œşÿÿÿÿ
+[squid:S25834"DChange this condition so that it does not always evaluate to "false"(ùÁè£
